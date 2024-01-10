@@ -1,13 +1,13 @@
 ## Running the code
 After fetching the repository, simply run:
 
-`python3 path/to/repo/short-url-izwgji/shortlink.py`
+`python3 path/to/repo/url_shortener/shortlink.py`
 
 Alternatively, the python file can be make executable:
 
-`chmod +x path/to/repo/short-url-izwgji/shortlink.py`
+`chmod +x path/to/repo/url_shortener/shortlink.py`
 and then run it directly:
-`path/to/repo/short-url-izwgji/shortlink.py`
+`path/to/repo/url_shortener/shortlink.py`
 
 The CLI accepts a few arguments:
 ```
@@ -132,7 +132,7 @@ OK
 ```
 
 ## Linter & PEP-8
-I've used a standart, non-tuned linter:
+I've used a standard, non-tuned linter:
 
 ```
 pylint --enable-all-extensions service/*py lib/*py shortlink.py
